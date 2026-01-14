@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "802880236012",
+    "project_id": "rickmortyapptarea03",
+    "storage_bucket": "rickmortyapptarea03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802880236012:android:0db0c9bc319cb75a5cb8c9",
+        "android_client_info": {
+          "package_name": "dam.pmpd.rickymortyseguimiento"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3gQys-l3zObx-CVblsU9U3A1mbeiwQnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

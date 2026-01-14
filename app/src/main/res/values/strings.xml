@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">RickAndMortyApp</string>
+
+    <string name="nav_episodes">Episodios</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_about">Acerca de</string>
+
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="register_title">Registrarse</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_register">Crear cuenta</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre</string>
+    <string name="btn_back_login">Volver al Login</string>
+
+    <string name="filter_title">Filtrar</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_seen">Solo vistos</string>
+    <string name="episode_name_placeholder">Pilot</string>
+    <string name="episode_code_placeholder">S01E01</string>
+    <string name="episode_date_placeholder">December 2, 2013</string>
+    <string name="seen_label">VISTO</string>
+    <string name="characters_title">Personajes</string>
+
+    <string name="detail_info_placeholder">S01E01 - December 2013</string>
+    <string name="detail_mark_seen">Marcar como Visto</string>
+
+    <string name="settings_language">Idioma (ES/EN)</string>
+    <string name="settings_theme">Modo Oscuro</string>
+    <string name="settings_screen_title">Configuración</string>
+    <string name="settings_logout">Cerrar Sesión</string>
+
+    <string name="stats_title">Progreso de visualización</string>
+    <string name="stats_count_placeholder">Has visto 0 de 0 episodios</string>
+
+    <string name="msg_lang_en">Idioma cambiado a Inglés (Reinicia para aplicar)</string>
+    <string name="msg_lang_es">Idioma cambiado a Español</string>
+
+    <string name="about_dialog_title">Acerca de Rick &amp; Morty App</string>
+    <string name="about_dialog_msg">Desarrollado por: JA Villalar\nVersión: 1.0.0\n\nPráctica de Desarrollo de Aplicaciones Móviles.</string>
+    <string name="btn_cool">Genial</string>
+
+
+    <string name="nav_header_title">Rick Sanchez</string>
+    <string name="nav_header_subtitle">rick@portalgun.com</string>
+    <string name="nav_header_desc">Avatar</string>
+
+
+</resources>

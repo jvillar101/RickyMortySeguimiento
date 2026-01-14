@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="rick_blue_dark">#0B1E2D</color>
+    <color name="rick_green_neon">#00FF9C</color>
+    <color name="rick_yellow">#FFEB3B</color>
+    <color name="seen_episode_bg">#2C3E50</color>
+    <color name="gray_text">#B0BEC5</color>
+
+    <color name="logout_red">#D32F2F</color>
+
+    <color name="light_background">#F5F5F5</color>
+    <color name="light_text">#121212</color>
+
+</resources>

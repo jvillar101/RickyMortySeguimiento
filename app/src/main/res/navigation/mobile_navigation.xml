@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_episodes">
+
+    <fragment
+        android:id="@+id/nav_episodes"
+        android:name="dam.pmpd.rickymortyseguimiento.EpisodesFragment"
+        android:label="@string/nav_episodes"
+        tools:layout="@layout/fragment_episodes">
+
+        <action
+            android:id="@+id/action_episodes_to_detail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="dam.pmpd.rickymortyseguimiento.DetailFragment"
+        android:label="Detalle Episodio"
+        tools:layout="@layout/fragment_detail">
+
+        <argument
+            android:name="episode"
+            app:argType="dam.pmpd.rickymortyseguimiento.Episode" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="dam.pmpd.rickymortyseguimiento.StatsFragment"
+        android:label="@string/nav_stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="dam.pmpd.rickymortyseguimiento.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <dialog
+        android:id="@+id/nav_about"
+        android:name="dam.pmpd.rickymortyseguimiento.AboutFragment"
+        android:label="@string/nav_about" />
+
+</navigation>
